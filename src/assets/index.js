@@ -23,14 +23,34 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import senter from "./company/senter.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import softdepot from "./company/softdepot.png";
+import mirasol from "./company/mirasol.png";
+import expertum from "./company/expertum.png";
+import laravel from "./company/laravel.svg";
+
+//done jobs
+import senterJob from "./jobs_done/senter.gif";
+import voyagerAppJob from "./jobs_done/voyager-app.gif";
+import voyagerJob from "./jobs_done/voyager.gif";
+import hrzJob from "./jobs_done/hrz.gif";
+import dimovereJob from "./jobs_done/dimovere.gif";
+
 
 export {
+  dimovereJob,
+  hrzJob,
+  voyagerJob,
+  voyagerAppJob,
+  senterJob,
+  laravel,
+  expertum,
+  mirasol,
   logo,
   backend,
   creator,
@@ -54,9 +74,10 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
+  senter,
   tesla,
   carrent,
   jobit,
   tripguide,
+  softdepot
 };

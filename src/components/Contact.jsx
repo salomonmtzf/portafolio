@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { PlanetCanvas } from "./canvas";
+import { GalaxyCanvas } from "./canvas";
 
 const Contact = () => {
   const formRef = useRef();
@@ -27,16 +29,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
+        "service_hni8j82",
+        "template_x18fnij",
         {
           form_name: form.name,
-          to_name: "Liron",
+          to_name: "Hexagun",
           from_email: form.email,
-          to_email: "contact@mail.com",
+          to_email: "info@hexagun.mx",
           message: form.message,
         },
-        "Jqq9AvwIuSjoMiA5c"
+        "pshu8up-sU2WXmJua"
       )
       .then(
         () => {
@@ -121,7 +123,7 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-        <EarthCanvas />
+      <EarthCanvas />
       </motion.div>
     </div>
   );

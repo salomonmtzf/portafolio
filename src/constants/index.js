@@ -16,13 +16,20 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
+  senter,
+  mirasol,
   shopify,
+  softdepot,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  expertum,
+  laravel,
+  senterJob,
+  voyagerAppJob,
+  voyagerJob,
+  hrzJob,
+  dimovereJob
 } from "../assets";
 
 export const navLinks = [
@@ -46,6 +53,10 @@ const services = [
     icon: web,
   },
   {
+    title: "React Developer",
+    icon: web,
+  },
+  {
     title: "React Native Developer",
     icon: mobile,
   },
@@ -54,7 +65,19 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Laravel Developer",
+    icon: backend,
+  },
+  {
+    title: "Microservices",
+    icon: backend,
+  },
+  {
+    title: "Salesforce Developer",
+    icon: creator,
+  },
+  {
+    title: "Azure",
     icon: creator,
   },
 ];
@@ -71,10 +94,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -97,16 +116,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -116,55 +127,85 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "IT Manager",
+    company_name: "Senter Logistics",
+    icon: senter,
+    link :'https://senter.mx',
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Marzo 2020 – 8 de Diciembre 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Development of mobile platforms with web technology and applications for Android and IOS",
+      "Server management and domains (Hostinger, Aure).",
+      "IT inventory management. Odoo Inventory",
+      "Database management (MYSQL)",
+      "Salesforce Developer (JAVA, APEX, SOQL)",
+      "Development of Senter.mx and voyager.mx (Laravel, React, API Integrations with        external providers). https://senter.mx https://voyager.mx",
+      "Development of HRZ Logistics. https://hrzlogistics.mx/",
+      "Development of Voyager App for Android and IOS using React Native.",
+      "Management of Microsoft 365.",
+      "Technical service for all team members.",
+      "Front.io App management.",
+      "Custom documentation of all departments on  docs.senter.mx",
+      "Massive mailing and api connections using sendgrid",
+      "Created Centralized API at api.senter.mx",
+      "Errors tracking and management using sentry.io",
+      "Billing API integration using alerga billing software for México"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Web and Mobile developer",
+    company_name: "SoftDepot",
+    icon: softdepot,
+    link : "https://www.softdepot.mx/",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2019 – February 15 - 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Platforms Development using web technologies.",
+      "Payment gateways integration like Conekta and Stripe",
+      "Movile Development for Android and IOS with React Native",
+      "Applied technologies: Laravel 5.8+, PHP, Bootstrap 4.4, HTML5, CSS, JavaScript, Vue.js, React, GraphQL",
+      "Other applied knowledge: Phyton, Django, Express, Node, Golang, Electron.js, Git",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "EXPERTUM – Technologies & Business",
+    icon: expertum,
+    link : 'https://www.expertum.com.co/',
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2018 – February 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "E-commerce platform development. (Web Store and CMS – Admin panel ). Built using Laravel.",
+      "E-commerce built for  https://materilejuguetes.com/",
+      "Payment gateways integration like MercadoPago, ePayco and PAYU.",
+      "External REST API’S fetch for products.",
+      "Applied technologies: Laravel 5.7, PHP, Bootstrap 4.1.3, HTML5, JavaScript, JQuery, Axios, Server Side DataTables, Web Pack",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Web Developer (Practices)",
+    company_name: "Zona Franca Industrial, Comercial y de Servicios de Paraguaná. ZONFIPCA.",
+    link : 'https://www.youtube.com/watch?v=AacL_aAiFSA',
+    icon: laravel,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2017 – December 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Development of a Platform for visitors control",
+      "Chat Development for the inner comunication of the company",
+      "Development of a web application to manage all the events programmed by the company.",
+      "Applied technologies: Laravel 5.0, PHP, Materialize CSS, HTML5, JavaScript, JQuery, Server Side DataTables, JCalendar."
+    ],
+  },
+  {
+    title: "Software Auditor",
+    company_name: "Mirasol Hotel Boutique Paraguaná.",
+    link : 'https://mirasolhotelboutique.com/',
+    icon: mirasol,
+    iconBg: "#E6DEDD",
+    date: "October 2016 – July 2017",
+    points: [
+      "Systems auditor, financial and receptionist.",
+      "Monitoring and control of reception procedures using the Premium Soft Administrative System.",
     ],
   },
 ];
@@ -198,31 +239,39 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Senter Logistics Platform",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Senter is a 100% Mexican company based in Monterrey. They have more than 10 years of experience in the National and International market, also agreements with all shipping agencies and cargo agents globally, which allows them to cover the entire journey of the containers, whether import or export.",
     tags: [
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Filament",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: senterJob,
+    source_code_link: "https://github.com/jhoanborges",
   },
   {
-    name: "Job IT",
+    name: "Voyager APP",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Voyager gets always the optimal route of your cargo. Find everything you need to optimize your supply chain—and your business—on the Voyager Platform.",
     tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
@@ -236,20 +285,74 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: voyagerAppJob,
+    source_code_link: "https://github.com/jhoanborges",
   },
   {
-    name: "Trip Guide",
+    name: "Voyager Platform",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Voyager gets always the optimal route of your cargo. Find everything you need to optimize your supply chain—and your business—on the Voyager Platform.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: voyagerJob,
+    source_code_link: "https://github.com/jhoanborges",
+  },
+  {
+    name: "HRZ Logistics",
+    description:
+      "HRZ handles end-to-end warehousing and distribution logistics from its strategic network of warehousing facilities; able to meet the demands of its customers.",
+    tags: [
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hrzJob,
+    source_code_link: "https://github.com/jhoanborges",
+  },
+  {
+    name: "Dimovere Website",
+    description:
+      "Dimovere es una constructora con un gran sentido humano, que impulsa el crecimiento integral de sus empleados.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +360,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dimovereJob,
+    source_code_link: "https://github.com/jhoanborges",
   },
 ];
 
