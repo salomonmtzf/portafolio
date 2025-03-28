@@ -53,6 +53,10 @@ const services = [
     icon: web,
   },
   {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
     title: "React Developer",
     icon: web,
   },
@@ -61,12 +65,12 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Laravel Developer",
     icon: backend,
   },
   {
-    title: "Laravel Developer",
-    icon: backend,
+    title: "Java Developer",
+    icon: web,
   },
   {
     title: "Microservices",
@@ -77,7 +81,19 @@ const services = [
     icon: creator,
   },
   {
-    title: "Azure",
+    title: "Oracle NetSuite Developer",
+    icon: mobile,
+  },
+  {
+    title: "SAP Commissions",
+    icon: web,
+  },
+  {
+    title: "Angular Developer",
+    icon: backend,
+  },
+  {
+    title: "Azure DevOps",
     icon: creator,
   },
 ];
@@ -127,88 +143,85 @@ const technologies = [
 
 const experiences = [
   {
-    title: "IT Manager",
-    company_name: "Senter Logistics",
-    icon: senter,
-    link :'https://senter.mx',
-    iconBg: "#383E56",
-    date: "Marzo 2020 – 8 de Diciembre 2023",
-    points: [
-      "Development of mobile platforms with web technology and applications for Android and IOS",
-      "Server management and domains (Hostinger, Aure).",
-      "IT inventory management. Odoo Inventory",
-      "Database management (MYSQL)",
-      "Salesforce Developer (JAVA, APEX, SOQL)",
-      "Development of Senter.mx and voyager.mx (Laravel, React, API Integrations with        external providers). https://senter.mx https://voyager.mx",
-      "Development of HRZ Logistics. https://hrzlogistics.mx/",
-      "Development of Voyager App for Android and IOS using React Native.",
-      "Management of Microsoft 365.",
-      "Technical service for all team members.",
-      "Front.io App management.",
-      "Custom documentation of all departments on  docs.senter.mx",
-      "Massive mailing and api connections using sendgrid",
-      "Created Centralized API at api.senter.mx",
-      "Errors tracking and management using sentry.io",
-      "Billing API integration using alerga billing software for México"
-    ],
+    "title": "Applications Manager",
+    "company_name": "Grupo 4HG",
+    "icon": "grupo4hg",
+    "link": "https://grupo4hg.mx/",
+    "iconBg": "#383E56",
+    "date": "April 2023 – Present",
+    "points": [
+      "Technical leadership in defining and executing REST solutions for integration with STP and referenced payments.",
+      "Design and management of technology migrations on NetSuite and web platforms, ensuring operational continuity.",
+      "Supervision of production deployments with quality standards and alignment to strategic objectives.",
+      "Agile project management using Azure DevOps for sprints, backlog, and team progress tracking.",
+      "Coordination of multidisciplinary teams for developing responsive mobile and web applications.",
+      "Azure server administration (Nginx, DNS) and process optimization in Azure DevOps.",
+      "Oversight of web migrations and WordPress maintenance for projects like bravoaire.com and grupo4hg.mx.",
+      "Code analysis, QA testing, and technical documentation to ensure quality and clarity.",
+      "Technologies: NetSuite, APEX Salesforce, Python, Java 8, Angular, Azure DevOps, AWS, Scrum, Git, PHP, .Net, Oracle 11g."
+    ]
   },
   {
-    title: "Web and Mobile developer",
-    company_name: "SoftDepot",
-    icon: softdepot,
-    link : "https://www.softdepot.mx/",
-    iconBg: "#E6DEDD",
-    date: "March 2019 – February 15 - 2020",
-    points: [
-      "Platforms Development using web technologies.",
-      "Payment gateways integration like Conekta and Stripe",
-      "Movile Development for Android and IOS with React Native",
-      "Applied technologies: Laravel 5.8+, PHP, Bootstrap 4.4, HTML5, CSS, JavaScript, Vue.js, React, GraphQL",
-      "Other applied knowledge: Phyton, Django, Express, Node, Golang, Electron.js, Git",
-    ],
+    "title": "IT Manager",
+    "company_name": "Senter Logistics",
+    "icon": "senter",
+    "link": "https://api.senter.mx/",
+    "iconBg": "#E6DEDD",
+    "date": "January 2023 – March 2023",
+    "points": [
+      "Creation and optimization of REST services for platforms like Project44 and Searates.",
+      "API centralization (api.senter.mx) to consolidate technological processes.",
+      "Server administration on Azure and Hostinger, with Nginx and DNS adjustments for high availability.",
+      "Development of mobile apps (React Native) and web platforms (Voyager, HRZ Logistics).",
+      "Integration of external APIs (Alegra, SendGrid) and Microsoft 365 management.",
+      "Implementation of centralized documentation systems (docs.senter.mx) and ticketing modules.",
+      "Technologies: APEX Salesforce, Java 8, Azure, React Native, MySQL, Scrum, Git, AWS."
+    ]
   },
   {
-    title: "Web Developer",
-    company_name: "EXPERTUM – Technologies & Business",
-    icon: expertum,
-    link : 'https://www.expertum.com.co/',
-    iconBg: "#383E56",
-    date: "May 2018 – February 2019",
-    points: [
-      "E-commerce platform development. (Web Store and CMS – Admin panel ). Built using Laravel.",
-      "E-commerce built for  https://materilejuguetes.com/",
-      "Payment gateways integration like MercadoPago, ePayco and PAYU.",
-      "External REST API’S fetch for products.",
-      "Applied technologies: Laravel 5.7, PHP, Bootstrap 4.1.3, HTML5, JavaScript, JQuery, Axios, Server Side DataTables, Web Pack",
-    ],
+    "title": "Senior Developer",
+    "company_name": "Global Hitss",
+    "icon": "globalhitss",
+    "link": "",
+    "iconBg": "#383E56",
+    "date": "July 2021 – August 2022",
+    "points": [
+      "Development of web services (SOAP/REST) for banking solutions like AfirmeNet - CreditsANE.",
+      "API integration and optimization of existing services with a focus on security and scalability.",
+      "Use of Scrum methodologies for sprint planning and task prioritization.",
+      "Detailed technical documentation and process standardization with IBM App Connect Enterprise.",
+      "Technical mentorship for development teams and collaboration with QA and design departments.",
+      "Technologies: J2EE, Spring MVC, IBM WebSphere, Oracle 11g, Scrum, Azure DevOps."
+    ]
   },
   {
-    title: "Web Developer (Practices)",
-    company_name: "Zona Franca Industrial, Comercial y de Servicios de Paraguaná. ZONFIPCA.",
-    link : 'https://www.youtube.com/watch?v=AacL_aAiFSA',
-    icon: laravel,
-    iconBg: "#E6DEDD",
-    date: "July 2017 – December 2017",
-    points: [
-      "Development of a Platform for visitors control",
-      "Chat Development for the inner comunication of the company",
-      "Development of a web application to manage all the events programmed by the company.",
-      "Applied technologies: Laravel 5.0, PHP, Materialize CSS, HTML5, JavaScript, JQuery, Server Side DataTables, JCalendar."
-    ],
+    "title": "Senior Developer",
+    "company_name": "IDS",
+    "icon": "ids",
+    "link": "",
+    "iconBg": "#E6DEDD",
+    "date": "February 2021 – July 2021",
+    "points": [
+      "Leadership in global projects like Salto País and Global Net Cash for BBVA.",
+      "Development of administrative modules and authentication systems (Softoken).",
+      "Automation of business rules and process optimization using agile methodologies.",
+      "Technologies: J2EE, Spring Security, Angular, Node.js, Scrum, Git."
+    ]
   },
   {
-    title: "Software Auditor",
-    company_name: "Mirasol Hotel Boutique Paraguaná.",
-    link : 'https://mirasolhotelboutique.com/',
-    icon: mirasol,
-    iconBg: "#E6DEDD",
-    date: "October 2016 – July 2017",
-    points: [
-      "Systems auditor, financial and receptionist.",
-      "Monitoring and control of reception procedures using the Premium Soft Administrative System.",
-    ],
-  },
-];
+    "title": "Senior Developer",
+    "company_name": "EISEI",
+    "icon": "eisei",
+    "link": "https://www.akky.mx/",
+    "iconBg": "#383E56",
+    "date": "November 2019 – January 2020",
+    "points": [
+      "Module migration for NIC México (.MX domain management).",
+      "Integration of payment history and web application security.",
+      "Technologies: J2EE, SpringBoot, WebLogic, Scrum."
+    ]
+  }
+]
 
 const testimonials = [
   {
