@@ -20,9 +20,9 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Salomón</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Computer Systems Engineer with over 9 years of experience leading technology teams, 
-            driving digital transformation, and managing high-impact projects across industries such as 
-            banking, logistics, retail, fintech, and consulting. <br className="sm:block hidden" />
+          Systems Engineer with more than 9 years of experience leading technology teams, managing strategic projects, 
+          and accelerating digital transformation in sectors such as banking, logistics, retail, fintech, and consulting. 
+          <br className="sm:block hidden" />
           </p>
         </div>
       </div>
